@@ -1,0 +1,375 @@
+.container{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.868);
+    display: flex;
+
+}
+.left{
+    display: flex;
+    margin-left: 90px;
+}
+.logo1 img{
+    width:98px;
+    height: 55px;
+    margin-top: 0%;
+}
+.logo2 img{
+    width: 70px;
+    height: 55px;
+}
+.logo3 img{
+    width:70px;
+    height: 55px;
+}
+.logo4 img{
+    width:70px;
+    height: 55px;
+}
+.right{
+    display: flex;
+    margin-left: 500px;
+    gap: 17px;
+    margin-top: 18px;
+}
+.aditya img{
+    width:90px;
+    height: 50px;
+    margin-top: -18px;
+}
+.right a{
+    color:white;
+    
+}
+p{
+    color: #fff;
+    margin-top: -2px;
+}
+a:hover{
+    color: yellow;
+}
+.container1{
+    width: 100%;
+    height: 80px;
+    background-color:white;
+    display: flex;
+    position: sticky;
+    top: 0;
+
+}
+.container1 a{
+    color: rgba(0, 0, 0, 0.793);
+}
+.container1 .serch{
+    margin-top: 13px;
+    margin-left: 110px;
+    padding: 8px;
+    border-bottom: 1px solid black;
+    margin-bottom: 35px;
+}
+input{
+    border: none;
+}
+.divry a{
+    border: 1px solid rgb(255, 145, 0);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: black;
+    background-color:rgb(255, 145, 0) ;
+}
+.divry{
+    padding-bottom:15px; 
+    margin-top: 28px;
+}
+.container1 a{
+    margin-left: 60px;
+    text-decoration: none;
+}
+.log1 img{
+    width:180px;
+    height: 65px;
+    margin-left: 30px;
+}
+.men{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 15px;
+    
+}
+.men:hover{
+    color: blue;
+    border-bottom: 2px solid red;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+.women{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.women:hover{
+    color: blue;
+    border-bottom: 2px solid red;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+.boys{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.boys:hover{
+    color: blue;
+    border-bottom: 2px solid red;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+.girls{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.girls:hover{
+    color: blue;
+    border-bottom: 2px solid red;
+    margin-bottom: 30px;
+    font-weight: 900; 
+}
+.new{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.new:hover{
+    color: blue;
+    border-bottom: 2px solid red;
+    margin-bottom: 30px;
+    font-weight: 900;
+    
+}
+.sale{
+    margin-top: 30px;
+    margin-left: 30px;
+    color: red;
+    font-size: 15px;
+}
+.sale:hover{
+    color: blue;
+    border-bottom: 2px solid red;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+.head{
+    background-image: url("/2.jpg");
+    height: 700px;
+    background-size: cover;
+    
+}
+.images {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    margin-left: 70px;
+    width: 40%;
+}
+.name{
+    display: flex;
+    margin-top: 15px;
+    font-weight:900;
+    margin-bottom: 59px;
+    color:  #0e3051;
+}
+ .n1{
+    margin-left:140px;
+}
+.n2{
+    margin-left: 180px;
+}
+.n3{
+    margin-left: 190px;
+}
+.n4{
+    margin-left: 170px;
+}
+.n5{
+    margin-left: 170px;
+}
+.n6{
+    margin-left: 150px;
+}
+.app-download{
+    background-color: rgb(249, 231, 159);
+    height: 250px;
+    width: 100%;
+}
+.available h2{
+    color: #0e3051;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-size: 30px;
+}
+.app-download{
+    display: flex;
+}
+.app-download p{
+    font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #505051;
+}
+.usecode{
+    display: flex;
+}
+.usecode p{
+    font-size: 14px;
+    color: #505051;
+    margin-top: 15px;
+    
+}
+.code{
+    width: 120px;
+    
+}
+.code p{
+    border: 2px solid black;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    letter-spacing: 2px;
+    border-style: dashed;
+    padding: 5px 12px;
+    margin-top: 0.5px;
+    font-weight: 700;
+    margin-left: 10px;
+    background-color: rgb(255, 225, 0);
+    border-radius: 3px;
+}
+.code, .apple, .playstore{
+    margin-left: 10px;
+}
+.available h2{
+    padding-top: 31px;
+}
+.available{
+    margin-left: 124px;
+}
+.qr img{
+    width: 38%;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+.qr p{
+    font-size: 9px;
+    margin-left: 80px;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 100%;
+    margin-top: 22px;
+    margin-left: 80px;
+} 
+.sale-banner{
+    margin-left: 950px;
+    margin-top:0px !important;
+  
+    width: 29%;
+    padding-top: 220px;
+   
+    													
+}
+.sale-text{
+    margin-bottom: 0px !important;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 6px;
+    font-weight: 300;
+    color:black;
+}
+.upto{
+    /* margin-top: 0px !important; */
+   
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 6px;
+    margin-top:-10px ;
+    font-weight: 600;
+    color:black;
+    text-align: center;
+}
+.sale-banner h1{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    text-align: center;
+    font-size: 90px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 6px;
+    font-weight: 600;
+    color:black;
+}
+.style{
+
+    margin-top: 0px !important;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 4px;
+    font-weight: 200;
+    color:black;
+}
+.shop-btn{
+   
+    text-align: center;
+    padding-top: 25px;
+    
+}
+.shop-btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    background-color: transparent;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 16px 60px;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.shop-btn a:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
